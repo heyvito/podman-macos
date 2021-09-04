@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>Podman for macOS</title>
+        <link>https://raw.github.com/heyvito/podman-macos/gh-pages/sparkle.xml</link>
+        <description>Podman for macOS Release Notes</description>
+        <language>en</language>
+    </channel>
+</rss>
