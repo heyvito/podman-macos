@@ -31,7 +31,7 @@ any problem.
 
 ## TODO
 
-- [ ] Provide Notarized binaries
+- [x] Provide Notarized binaries
 - [ ] Add support to Apple M1
 
 ## Acknowledgements

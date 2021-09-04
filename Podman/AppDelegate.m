@@ -30,10 +30,12 @@
     NSArray *appArray = [NSRunningApplication runningApplicationsWithBundleIdentifier:[[NSBundle mainBundle] bundleIdentifier]];
     for (NSRunningApplication *app in appArray) {
         if ([app processIdentifier] != selfPid) {
+            NSLog(@"Killing itself since PID %d is already running", [app processIdentifier]);
             [NSApp terminate:nil];
             break;
        }
     }
+    NSLog(@"Passed ensureSingleInstance");
 }
 
 
@@ -48,7 +50,6 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     SUUpdater *updater = [SUUpdater sharedUpdater];
     updater.automaticallyChecksForUpdates = PMPreferences.checkForUpdates;
-    updater.feedURL = [NSURL URLWithString:@"https://heyvito.github.io/podman-macos/sparkle.xml"];
 
     PMOperationResult *detectPodmanResult = [PMManager.manager detectPodman];
     switch ([detectPodmanResult detectStateValue]) {

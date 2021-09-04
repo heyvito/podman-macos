@@ -28,5 +28,7 @@
 	<true/>
 	<key>NSPrincipalClass</key>
 	<string>PMApplication</string>
+	<key>SUFeedURL</key>
+	<string>https://raw.github.com/heyvito/podman-macos/gh-pages/appcast.xml</string>
 </dict>
 </plist>
