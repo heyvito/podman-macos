@@ -20,7 +20,7 @@ set it to automatically start and bring the machine up during login.
     ```
     brew install podman
     ```
-2. Download a [Precompiled Binary](https://github.com/heyvito/podman-macos), or clone this repo and
+2. Download a [Precompiled Binary](https://github.com/heyvito/podman-macos/releases), or clone this repo and
 build it.
 3. Move the application to your Application's folder
 4. Launch it.
