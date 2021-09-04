@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA1ED08826E2B6AF009A8CD8 /* PMContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1ED08726E2B6AF009A8CD8 /* PMContainer.m */; };
+		DA1ED08B26E2BD06009A8CD8 /* PMOperationResult.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1ED08A26E2BD06009A8CD8 /* PMOperationResult.m */; };
+		DA1ED08F26E2C816009A8CD8 /* PMDispatch.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1ED08E26E2C816009A8CD8 /* PMDispatch.m */; };
+		DA60FC2826E2DF5A00756E30 /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = DA60FC2726E2DF5A00756E30 /* Sparkle */; };
+		DA60FC2B26E2E79600756E30 /* PMMoveToApplications.m in Sources */ = {isa = PBXBuildFile; fileRef = DA60FC2A26E2E79600756E30 /* PMMoveToApplications.m */; };
+		DA60FC3026E2F1AA00756E30 /* PMPreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA60FC2F26E2F1AA00756E30 /* PMPreferencesController.m */; };
+		DA60FC3326E2F31300756E30 /* PMPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = DA60FC3226E2F31300756E30 /* PMPreferences.m */; };
+		DA60FC6A26E318AC00756E30 /* PMLoginItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DA60FC6926E318AC00756E30 /* PMLoginItem.m */; };
+		DA618A9726E1233A000AB06C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA618A9626E1233A000AB06C /* AppDelegate.m */; };
+		DA618A9A26E1233A000AB06C /* PopoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA618A9926E1233A000AB06C /* PopoverController.m */; };
+		DA618A9C26E1233C000AB06C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA618A9B26E1233C000AB06C /* Assets.xcassets */; };
+		DA618A9F26E1233C000AB06C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA618A9D26E1233C000AB06C /* Main.storyboard */; };
+		DA618AA226E1233C000AB06C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA618AA126E1233C000AB06C /* main.m */; };
+		DA618AAB26E12E1A000AB06C /* PMStatusBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA618AAA26E12E1A000AB06C /* PMStatusBarController.m */; };
+		DA618AAE26E13CAD000AB06C /* PMApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = DA618AAD26E13CAD000AB06C /* PMApplication.m */; };
+		DA618AB126E14BF8000AB06C /* PMManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DA618AB026E14BF8000AB06C /* PMManager.m */; };
+		DA618AB426E1684C000AB06C /* PMInstallWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA618AB326E1684C000AB06C /* PMInstallWindowController.m */; };
+		DA618AB826E1AB30000AB06C /* PMInstallProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA618AB626E1AB30000AB06C /* PMInstallProgressViewController.m */; };
+		DA618ABC26E1D227000AB06C /* PMContainerCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA618ABB26E1D227000AB06C /* PMContainerCellView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DA60FC6626E3146200756E30 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LoginItems;
+			dstSubfolderSpec = 1;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DA1ED08626E2B6AF009A8CD8 /* PMContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMContainer.h; sourceTree = "<group>"; };
+		DA1ED08726E2B6AF009A8CD8 /* PMContainer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMContainer.m; sourceTree = "<group>"; };
+		DA1ED08926E2BD06009A8CD8 /* PMOperationResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMOperationResult.h; sourceTree = "<group>"; };
+		DA1ED08A26E2BD06009A8CD8 /* PMOperationResult.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMOperationResult.m; sourceTree = "<group>"; };
+		DA1ED08C26E2BFC1009A8CD8 /* PMCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMCommon.h; sourceTree = "<group>"; };
+		DA1ED08D26E2C816009A8CD8 /* PMDispatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMDispatch.h; sourceTree = "<group>"; };
+		DA1ED08E26E2C816009A8CD8 /* PMDispatch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMDispatch.m; sourceTree = "<group>"; };
+		DA60FC2926E2E79600756E30 /* PMMoveToApplications.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMMoveToApplications.h; sourceTree = "<group>"; };
+		DA60FC2A26E2E79600756E30 /* PMMoveToApplications.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMMoveToApplications.m; sourceTree = "<group>"; };
+		DA60FC2E26E2F1AA00756E30 /* PMPreferencesController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMPreferencesController.h; sourceTree = "<group>"; };
+		DA60FC2F26E2F1AA00756E30 /* PMPreferencesController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMPreferencesController.m; sourceTree = "<group>"; };
+		DA60FC3126E2F31300756E30 /* PMPreferences.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMPreferences.h; sourceTree = "<group>"; };
+		DA60FC3226E2F31300756E30 /* PMPreferences.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMPreferences.m; sourceTree = "<group>"; };
+		DA60FC6826E318AC00756E30 /* PMLoginItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMLoginItem.h; sourceTree = "<group>"; };
+		DA60FC6926E318AC00756E30 /* PMLoginItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMLoginItem.m; sourceTree = "<group>"; };
+		DA618A9226E1233A000AB06C /* Podman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Podman.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA618A9526E1233A000AB06C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DA618A9626E1233A000AB06C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DA618A9826E1233A000AB06C /* PopoverController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopoverController.h; sourceTree = "<group>"; };
+		DA618A9926E1233A000AB06C /* PopoverController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopoverController.m; sourceTree = "<group>"; };
+		DA618A9B26E1233C000AB06C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA618A9E26E1233C000AB06C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA618AA026E1233C000AB06C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA618AA126E1233C000AB06C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA618AA326E1233C000AB06C /* Podman.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Podman.entitlements; sourceTree = "<group>"; };
+		DA618AA926E12E1A000AB06C /* PMStatusBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMStatusBarController.h; sourceTree = "<group>"; };
+		DA618AAA26E12E1A000AB06C /* PMStatusBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMStatusBarController.m; sourceTree = "<group>"; };
+		DA618AAC26E13CAD000AB06C /* PMApplication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMApplication.h; sourceTree = "<group>"; };
+		DA618AAD26E13CAD000AB06C /* PMApplication.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMApplication.m; sourceTree = "<group>"; };
+		DA618AAF26E14BF8000AB06C /* PMManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMManager.h; sourceTree = "<group>"; };
+		DA618AB026E14BF8000AB06C /* PMManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMManager.m; sourceTree = "<group>"; };
+		DA618AB226E1684C000AB06C /* PMInstallWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMInstallWindowController.h; sourceTree = "<group>"; };
+		DA618AB326E1684C000AB06C /* PMInstallWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMInstallWindowController.m; sourceTree = "<group>"; };
+		DA618AB526E1AB30000AB06C /* PMInstallProgressViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMInstallProgressViewController.h; sourceTree = "<group>"; };
+		DA618AB626E1AB30000AB06C /* PMInstallProgressViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMInstallProgressViewController.m; sourceTree = "<group>"; };
+		DA618ABA26E1D227000AB06C /* PMContainerCellView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMContainerCellView.h; sourceTree = "<group>"; };
+		DA618ABB26E1D227000AB06C /* PMContainerCellView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMContainerCellView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA618A8F26E1233A000AB06C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA60FC2826E2DF5A00756E30 /* Sparkle in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA1ED08526E2B698009A8CD8 /* Interop */ = {
+			isa = PBXGroup;
+			children = (
+				DA618AAF26E14BF8000AB06C /* PMManager.h */,
+				DA618AB026E14BF8000AB06C /* PMManager.m */,
+				DA1ED08626E2B6AF009A8CD8 /* PMContainer.h */,
+				DA1ED08726E2B6AF009A8CD8 /* PMContainer.m */,
+				DA1ED08926E2BD06009A8CD8 /* PMOperationResult.h */,
+				DA1ED08A26E2BD06009A8CD8 /* PMOperationResult.m */,
+				DA1ED08C26E2BFC1009A8CD8 /* PMCommon.h */,
+				DA60FC6826E318AC00756E30 /* PMLoginItem.h */,
+				DA60FC6926E318AC00756E30 /* PMLoginItem.m */,
+			);
+			path = Interop;
+			sourceTree = "<group>";
+		};
+		DA60FC2C26E2EE3500756E30 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DA618A9826E1233A000AB06C /* PopoverController.h */,
+				DA618A9926E1233A000AB06C /* PopoverController.m */,
+				DA618AA926E12E1A000AB06C /* PMStatusBarController.h */,
+				DA618AAA26E12E1A000AB06C /* PMStatusBarController.m */,
+				DA618AB226E1684C000AB06C /* PMInstallWindowController.h */,
+				DA618AB326E1684C000AB06C /* PMInstallWindowController.m */,
+				DA618AB526E1AB30000AB06C /* PMInstallProgressViewController.h */,
+				DA618AB626E1AB30000AB06C /* PMInstallProgressViewController.m */,
+				DA60FC2E26E2F1AA00756E30 /* PMPreferencesController.h */,
+				DA60FC2F26E2F1AA00756E30 /* PMPreferencesController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DA60FC2D26E2EE6200756E30 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				DA618ABA26E1D227000AB06C /* PMContainerCellView.h */,
+				DA618ABB26E1D227000AB06C /* PMContainerCellView.m */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		DA618A8926E1233A000AB06C = {
+			isa = PBXGroup;
+			children = (
+				DA618A9426E1233A000AB06C /* Podman */,
+				DA618A9326E1233A000AB06C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA618A9326E1233A000AB06C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA618A9226E1233A000AB06C /* Podman.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA618A9426E1233A000AB06C /* Podman */ = {
+			isa = PBXGroup;
+			children = (
+				DA60FC2D26E2EE6200756E30 /* Controls */,
+				DA60FC2C26E2EE3500756E30 /* Controllers */,
+				DA1ED08526E2B698009A8CD8 /* Interop */,
+				DA60FC2926E2E79600756E30 /* PMMoveToApplications.h */,
+				DA60FC2A26E2E79600756E30 /* PMMoveToApplications.m */,
+				DA618A9526E1233A000AB06C /* AppDelegate.h */,
+				DA618A9626E1233A000AB06C /* AppDelegate.m */,
+				DA618AAC26E13CAD000AB06C /* PMApplication.h */,
+				DA618AAD26E13CAD000AB06C /* PMApplication.m */,
+				DA1ED08D26E2C816009A8CD8 /* PMDispatch.h */,
+				DA1ED08E26E2C816009A8CD8 /* PMDispatch.m */,
+				DA60FC3126E2F31300756E30 /* PMPreferences.h */,
+				DA60FC3226E2F31300756E30 /* PMPreferences.m */,
+				DA618A9B26E1233C000AB06C /* Assets.xcassets */,
+				DA618A9D26E1233C000AB06C /* Main.storyboard */,
+				DA618AA026E1233C000AB06C /* Info.plist */,
+				DA618AA126E1233C000AB06C /* main.m */,
+				DA618AA326E1233C000AB06C /* Podman.entitlements */,
+			);
+			path = Podman;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA618A9126E1233A000AB06C /* Podman */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA618AA626E1233C000AB06C /* Build configuration list for PBXNativeTarget "Podman" */;
+			buildPhases = (
+				DA618A8E26E1233A000AB06C /* Sources */,
+				DA618A8F26E1233A000AB06C /* Frameworks */,
+				DA618A9026E1233A000AB06C /* Resources */,
+				DA60FC6626E3146200756E30 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Podman;
+			packageProductDependencies = (
+				DA60FC2726E2DF5A00756E30 /* Sparkle */,
+			);
+			productName = "Podman macOS";
+			productReference = DA618A9226E1233A000AB06C /* Podman.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA618A8A26E1233A000AB06C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					DA618A9126E1233A000AB06C = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = DA618A8D26E1233A000AB06C /* Build configuration list for PBXProject "Podman" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA618A8926E1233A000AB06C;
+			packageReferences = (
+				DA60FC2626E2DF5A00756E30 /* XCRemoteSwiftPackageReference "Sparkle" */,
+			);
+			productRefGroup = DA618A9326E1233A000AB06C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA618A9126E1233A000AB06C /* Podman */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA618A9026E1233A000AB06C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA618A9C26E1233C000AB06C /* Assets.xcassets in Resources */,
+				DA618A9F26E1233C000AB06C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA618A8E26E1233A000AB06C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA60FC3326E2F31300756E30 /* PMPreferences.m in Sources */,
+				DA618AAB26E12E1A000AB06C /* PMStatusBarController.m in Sources */,
+				DA618A9A26E1233A000AB06C /* PopoverController.m in Sources */,
+				DA618AA226E1233C000AB06C /* main.m in Sources */,
+				DA618A9726E1233A000AB06C /* AppDelegate.m in Sources */,
+				DA1ED08F26E2C816009A8CD8 /* PMDispatch.m in Sources */,
+				DA618AB826E1AB30000AB06C /* PMInstallProgressViewController.m in Sources */,
+				DA618ABC26E1D227000AB06C /* PMContainerCellView.m in Sources */,
+				DA1ED08B26E2BD06009A8CD8 /* PMOperationResult.m in Sources */,
+				DA618AB126E14BF8000AB06C /* PMManager.m in Sources */,
+				DA60FC2B26E2E79600756E30 /* PMMoveToApplications.m in Sources */,
+				DA618AB426E1684C000AB06C /* PMInstallWindowController.m in Sources */,
+				DA1ED08826E2B6AF009A8CD8 /* PMContainer.m in Sources */,
+				DA60FC6A26E318AC00756E30 /* PMLoginItem.m in Sources */,
+				DA618AAE26E13CAD000AB06C /* PMApplication.m in Sources */,
+				DA60FC3026E2F1AA00756E30 /* PMPreferencesController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DA618A9D26E1233C000AB06C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA618A9E26E1233C000AB06C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA618AA426E1233C000AB06C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DA618AA526E1233C000AB06C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DA618AA726E1233C000AB06C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Podman/Podman.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7GEB3UCDV7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Podman/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.vito.Podman-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DA618AA826E1233C000AB06C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Podman/Podman.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7GEB3UCDV7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Podman/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.vito.Podman-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA618A8D26E1233A000AB06C /* Build configuration list for PBXProject "Podman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA618AA426E1233C000AB06C /* Debug */,
+				DA618AA526E1233C000AB06C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA618AA626E1233C000AB06C /* Build configuration list for PBXNativeTarget "Podman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA618AA726E1233C000AB06C /* Debug */,
+				DA618AA826E1233C000AB06C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DA60FC2626E2DF5A00756E30 /* XCRemoteSwiftPackageReference "Sparkle" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sparkle-project/Sparkle";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.26.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DA60FC2726E2DF5A00756E30 /* Sparkle */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA60FC2626E2DF5A00756E30 /* XCRemoteSwiftPackageReference "Sparkle" */;
+			productName = Sparkle;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DA618A8A26E1233A000AB06C /* Project object */;
+}
