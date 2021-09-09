@@ -103,11 +103,17 @@
         }
     }
 
-    // Test for homebrew path as a last resort...
-    NSString *base = @"/usr/local/bin";
-    NSString *target = [base stringByAppendingPathComponent:appName];
-    if ([[NSFileManager defaultManager] isExecutableFileAtPath:target]) {
-        return target;
+    // Test for homebrew default paths as a last resort...
+    NSArray *homebrewDefaultPaths = @[
+        @"/usr/local/bin",
+        @"/opt/homebrew/bin",
+    ];
+
+    for (NSString *base in homebrewDefaultPaths) {
+        NSString *target = [base stringByAppendingPathComponent:appName];
+        if ([[NSFileManager defaultManager] isExecutableFileAtPath:target]) {
+            return target;
+        }
     }
 
     return nil;
