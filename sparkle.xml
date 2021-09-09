@@ -5,5 +5,15 @@
         <link>https://raw.github.com/heyvito/podman-macos/gh-pages/sparkle.xml</link>
         <description>Podman for macOS Release Notes</description>
         <language>en</language>
+        <item>
+            <title>Podman for macOS 1.1</title>
+            <sparkle:releaseNotesLink>https://heyvito.github.io/podman-macos/releasenotes.html</sparkle:releaseNotesLink>
+            <enclosure
+                url="https://github.com/heyvito/podman-macos/releases/download/v1.1.0/Podman.dmg"
+                sparkle:version="2"
+                sparkle:shortVersionString="1.1"
+            />
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+        </item>
     </channel>
 </rss>
