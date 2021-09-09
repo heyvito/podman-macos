@@ -35,6 +35,9 @@
 
 @implementation PMManager {
     NSString *podmanPath;
+    NSString *podmanBasePath;
+    NSDictionary *execEnvironments;
+
     NSRegularExpression *downloadExpr;
     NSRegularExpression *extractExpr;
     NSFileHandle *masterHandle, *slaveHandle;
@@ -133,6 +136,11 @@
     NSTask *task = [[NSTask alloc] init];
     task.launchPath = command;
     task.arguments = argsArr;
+
+    if (self->execEnvironments != nil) {
+        task.environment = self->execEnvironments;
+    }
+
     if (pipe != nil) {
         task.standardOutput = pipe;
     }
@@ -154,6 +162,18 @@
         return [PMOperationResult resultWithSuccess:NO object:@(PMDetectStateError) andOutput:pipe.fileHandleForReading];
     }
     self->podmanPath = podmanPath;
+    self->podmanBasePath = [podmanPath stringByDeletingLastPathComponent];
+    NSArray<NSString *> *pathComponents = [[NSProcessInfo.processInfo.environment objectForKey:@"PATH"] componentsSeparatedByString:@":"];
+
+    NSDictionary *allEnvs = [NSProcessInfo.processInfo.environment mutableCopy];
+    // Make sure podman's basedir is in PATH for commands we issue from the app
+    if (![pathComponents containsObject:self->podmanBasePath]) {
+        pathComponents = [pathComponents arrayByAddingObject:self->podmanBasePath];
+        NSString *pathString = [pathComponents componentsJoinedByString:@":"];
+        [allEnvs setValue:pathString forKey:@"PATH"];
+    }
+    self->execEnvironments = allEnvs;
+
     NSLog(@"detectPodman: Podman executable found at %@", podmanPath);
     return [PMOperationResult resultWithSuccess:YES object:@(PMDetectStateOK) andOutput:pipe.fileHandleForReading];
 }
