@@ -1,3 +1,9 @@
+##### Deprecated
+
+Podman Desktop has been released and can be downloaded from [https://podman-desktop.io/](https://podman-desktop.io/).
+
+----
+
 # Podman for macOS
 
 <img align="left" src="https://heyvito.github.io/podman-macos/Podman-Screenshot.png" width="250">
